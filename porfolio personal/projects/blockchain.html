@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Blockchain en Python | Portafolio Vazquez Valentin</title>
+    <link rel="stylesheet" href="../css/project-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="matrix-bg"></div>
+    
+    <nav class="navbar">
+        <div class="container">
+            <a href="../index.html" class="logo">
+                <i class="fas fa-arrow-left"></i> VOLVER
+            </a>
+        </div>
+    </nav>
+
+    <div class="project-container">
+        <section class="project-hero">
+            <div class="container">
+                <div class="project-header-content">
+                    <h1><i class="fas fa-link"></i> Sistema de Blockchain en Python</h1>
+                    <p class="subtitle">Implementación completa de blockchain con criptografía y minería Proof-of-Work</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-content">
+            <div class="container">
+                <div class="content-grid">
+                    <aside class="sidebar">
+                        <div class="info-box">
+                            <h3>Información del Proyecto</h3>
+                            <ul>
+                                <li><strong>Lenguaje:</strong> Python</li>
+                                <li><strong>Frameworks:</strong> Flask, Web3</li>
+                                <li><strong>Criptografía:</strong> SHA-256</li>
+                                <li><strong>Estado:</strong> Completo</li>
+                                <li><strong>Dificultad:</strong> Avanzada</li>
+                            </ul>
+                        </div>
+
+                        <div class="tech-stack">
+                            <h3>Stack Tecnológico</h3>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Cryptography</span>
+                                <span class="tech-tag">SHA-256</span>
+                                <span class="tech-tag">Proof-of-Work</span>
+                                <span class="tech-tag">Flask</span>
+                                <span class="tech-tag">SQLite</span>
+                                <span class="tech-tag">JSON</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-box">
+                            <h3>Repositorio</h3>
+                            <a href="#" class="github-link">
+                                <i class="fab fa-github"></i> Ver en GitHub
+                            </a>
+                        </div>
+                    </aside>
+
+                    <main class="main-content">
+                        <section class="section">
+                            <h2><i class="fas fa-cube"></i> Descripción General</h2>
+                            <p>
+                                Implementación educativa completa de blockchain desde cero, incluyendo:
+                                minería con algoritmo Proof-of-Work, validación de cadena, transacciones seguras y API REST.
+                            </p>
+                            <p>
+                                Este proyecto demuestra comprensión profunda de conceptos de criptografía, estructuras de datos,
+                                consenso distribuido y programación de alto rendimiento.
+                            </p>
+                        </section>
+
+                        <section class="section">
+                            <h2><i class="fas fa-cogs"></i> Características Principales</h2>
+                            <div class="features-list">
+                                <div class="feature">
+                                    <h3>1. Algoritmo Proof-of-Work</h3>
+                                    <p>
+                                        Minería real con dificultad ajustable, hash SHA-256, y validación de nonce. 
+                                        Tiempo de minería estimado configurable.
+                                    </p>
+                                </div>
+                                <div class="feature">
+                                    <h3>2. Validación de Cadena Completa</h3>
+                                    <p>
+                                        Verificación de integridad de toda la cadena, validación de hashes, 
+                                        detección de manipulación y forks.
+                                    </p>
+                                </div>
+                                <div class="feature">
+                                    <h3>3. Sistema de Transacciones</h3>
+                                    <p>
+                                        Creación, firmado digital y validación de transacciones. Pool de memoria 
+                                        para transacciones pendientes.
+                                    </p>
+                                </div>
+                                <div class="feature">
+                                    <h3>4. Criptografía RSA</h3>
+                                    <p>
+                                        Llaves pública/privada para firma digital de transacciones. Verificación 
+                                        criptográfica de autenticidad.
+                                    </p>
+                                </div>
+                                <div class="feature">
+                                    <h3>5. API REST Completa</h3>
+                                    <p>
+                                        Endpoints para crear bloques, transacciones, validar cadena, consultar balance 
+                                        y sincronizar nodos.
+                                    </p>
+                                </div>
+                                <div class="feature">
+                                    <h3>6. Visualización Dashboard</h3>
+                                    <p>
+                                        Panel web interactivo para visualizar la cadena, transacciones pendientes, 
+                                        estadísticas de minería en tiempo real.
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="section">
+                            <h2><i class="fas fa-network"></i> Arquitectura del Blockchain</h2>
+                            <div class="code-block">
+                                <h3>Estructura de Bloque</h3>
+                                <pre><code>class Block:
+    - index: número secuencial del bloque
+    - timestamp: marca de tiempo
+    - transactions: lista de transacciones
+    - previous_hash: hash del bloque anterior
+    - nonce: número para Proof-of-Work
+    - hash: hash SHA-256 del bloque actual
+    - difficulty: nivel de dificultad de minería</code></pre>
+                            </div>
+
+                            <div class="code-block">
+                                <h3>Estructura de Transacción</h3>
+                                <pre><code>class Transaction:
+    - sender: dirección pública del remitente
+    - receiver: dirección pública del receptor
+    - amount: cantidad de criptomoneda
+    - timestamp: marca de tiempo
+    - signature: firma digital RSA
+    
+    def is_valid():
+        # Verifica firma criptográfica</code></pre>
+                            </div>
+                        </section>
+
+                        <section class="section">
+                            <h2><i class="fas fa-terminal"></i> Instalación y Uso</h2>
+                            <div class="code-block">
+                                <h3>Configuración</h3>
+                                <pre><code>$ git clone https://github.com/vazquez-valentin/blockchain-python
+$ cd blockchain-python
+$ python -m venv venv
+$ source venv/bin/activate
+$ pip install -r requirements.txt</code></pre>
+                            </div>
+
+                            <div class="code-block">
+                                <h3>Ejecutar Nodo</h3>
+                                <pre><code>$ python blockchain.py
+
+[*] Blockchain iniciado
+[*] Escuchando en http://localhost:5000
+[*] API disponible en /api/
+[*] Dashboard en http://localhost:5000/dashboard</code></pre>
+                            </div>
+
+                            <div class="code-block">
+                                <h3>Operaciones Básicas</h3>
+                                <pre><code># Crear una transacción
+POST /api/transactions/create
+{
+    "sender": "public_key_1",
+    "receiver": "public_key_2",
+    "amount": 50
+}
+
+# Minar un bloque
+GET /api/mine
+
+# Validar la cadena
+GET /api/chain/validate
+
+# Obtener balance de una dirección
+GET /api/balance/public_key</code></pre>
+                            </div>
+                        </section>
+
+                        <section class="section">
+                            <h2><i class="fas fa-chart-bar"></i> Resultados y Benchmarks</h2>
+                            <div class="metrics">
+                                <div class="metric">
+                                    <h4>Velocidad Minería</h4>
+                                    <p class="metric-value">1.2K H/s</p>
+                                </div>
+                                <div class="metric">
+                                    <h4>Tiempo Bloque</h4>
+                                    <p class="metric-value">~2min</p>
+                                </div>
+                                <div class="metric">
+                                    <h4>TPS Máximo</h4>
+                                    <p class="metric-value">100+</p>
+                                </div>
+                                <div class="metric">
+                                    <h4>Seguridad</h4>
+                                    <p class="metric-value">SHA-256</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="section">
+                            <h2><i class="fas fa-lock"></i> Mecanismos de Seguridad</h2>
+                            <ul class="security-measures">
+                                <li>Proof-of-Work para consenso distribuido</li>
+                                <li>SHA-256 para hash criptográfico</li>
+                                <li>RSA-2048 para firma digital de transacciones</li>
+                                <li>Validación de cadena completa</li>
+                                <li>Detección de intentos de manipulación</li>
+                                <li>Pool de transacciones con verificación</li>
+                                <li>Sincronización entre nodos</li>
+                            </ul>
+                        </section>
+
+                        <section class="section">
+                            <h2><i class="fas fa-graduation-cap"></i> Conceptos Implementados</h2>
+                            <ul class="use-cases">
+                                <li>Criptografía de clave pública (RSA)</li>
+                                <li>Funciones hash criptográficas (SHA-256)</li>
+                                <li>Algoritmo Proof-of-Work</li>
+                                <li>Estructura de datos Merkle Tree</li>
+                                <li>Consenso distribuido</li>
+                                <li>Validación de cadena</li>
+                                <li>API REST con Flask</li>
+                                <li>Smart Contracts básicos</li>
+                            </ul>
+                        </section>
+
+                        <div class="back-link">
+                            <a href="../index.html#proyectos" class="btn-back">← Volver a Proyectos</a>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Vazquez Valentin | Full Stack Developer | Cybersecurity Specialist</p>
+        </div>
+    </footer>
+</body>
+</html>

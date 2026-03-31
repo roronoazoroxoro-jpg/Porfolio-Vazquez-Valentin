@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma Uber Funcional | Portafolio Vazquez Valentin</title>
+    <link rel="stylesheet" href="../css/project-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="matrix-bg"></div>
+    
+    <nav class="navbar">
+        <div class="container">
+            <a href="../index.html" class="logo">
+                <i class="fas fa-arrow-left"></i> VOLVER
+            </a>
+        </div>
+    </nav>
+
+    <div class="project-container">
+        <section class="project-hero">
+            <div class="container">
+                <div class="project-header-content">
+                    <h1><i class="fas fa-car"></i> Plataforma Uber - Full Stack Funcional</h1>
+                    <p class="subtitle">Aplicación completa de transporte compartido con GPS, matching y pagos en tiempo real</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-content">
+            <div class="container">
+                <div class="content-grid">
+                    <aside class="sidebar">
+                        <div class="info-box">
+                            <h3>Información del Proyecto</h3>
+                            <ul>
+                                <li><strong>Stack:</strong> Full Stack</li>
+                                <li><strong>Frontend:</strong> React.js</li>
+                                <li><strong>Backend:</strong> Node.js</li>
+                                <li><strong>Base de Datos:</strong> MongoDB</li>
+                                <li><strong>Estado:</strong> Producción</li>
+                            </ul>
+                        </div>
+
+                        <div class="tech-stack">
+                            <h3>Stack Tecnológico</h3>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Socket.io</span>
+                                <span class="tech-tag">Google Maps</span>
+                                <span class="tech-tag">Stripe</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-box">
+                            <h3>Repositorio</h3>
+                            <a href="#" class="github-link">
+                                <i class="fab fa-github"></i> Ver en GitHub
+                            </a>
+                        </div>
+                    </aside>
+
+                    <main class="main-content">
+                        <section class="section">
+                            <h2><i class="fas fa-globe"></i> Descripción General</h2>
+                            <p>
+                                Plataforma de transporte compartido completamente funcional, comparable a Uber. 
+                                Implementa matching de pasajeros con conductores en tiempo real, GPS tracking, sistema de calificaciones y pagos.
+                            </p>
+                            <p>
+                                Este proyecto demuestra habilidades avanzadas en desarrollo full stack, arquitectura 
+                                escalable, comunicación en tiempo real y aplicaciones geolocalización.
+                            </p>
+                        </section>
+
+                        <section class="section">
+                            <h2><i class="fas fa-cogs"></i> Características Principales</h2>
+                            <div class="features-list">
+                                <div class="feature">
+                                    <h3>1. Matching Inteligente</h3>
+                                    <p>
+                                        Algoritmo de matching que conecta pasajeros con conductores cercanos. 
+                                        Considera distancia, dirección y disponibilidad.
+                                    </p>
+                                </div>
+                                <div class="feature">
+                                    <h3>2. GPS en Tiempo Real</h3>
+                                    <p>
+                                        Tracking de conductor durante el viaje. Visualización de ruta optimizada 
+                                        con Google Maps, actualización cada segundo.
+                                    </p>
+                                </div>
+                                <div class="feature">
+                                    <h3>3. Sistema de Pagos</h3>
+                                    <p>
+                                        Integración con Stripe. Cálculo de tarifa dinámico basado en distancia, tiempo 
+                                        y demanda. Múltiples métodos de pago.
+                                    </p>
+                                </div>
+                                <div class="feature">
+                                    <h3>4. Calificaciones y Reseñas</h3>
+                                    <p>
+                                        Sistema de rating bidireccional. Historial de viajes con detalles, reseñas de usuarios,
+                                        perfil de conductor/pasajero con estadísticas.
+                                    </p>
+                                </div>
+                                <div class="feature">
+                                    <h3>5. Chat en Tiempo Real</h3>
+                                    <p>
+                                        Chat integrado entre pasajero y conductor usando Socket.io. Notificaciones push 
+                                        para mensajes nuevos y actualizaciones de viaje.
+                                    </p>
+                                </div>
+                                <div class="feature">
+                                    <h3>6. Panel de Conductor</h3>
+                                    <p>
+                                        Dashboard para conductores con estadísticas de ganancias, solicitudes entrantes, 
+                                        mapa interactivo, historial de viajes y gestión de disponibilidad.
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="section">
+                            <h2><i class="fas fa-code"></i> Arquitectura Técnica</h2>
+                            <div class="architecture">
+                                <div class="arch-box">
+                                    <h3>Frontend (React)</h3>
+                                    <p>SPA con Redux para estado global, Google Maps SDK, notificaciones en tiempo real.</p>
+                                </div>
+                                <div class="arch-box">
+                                    <h3>Backend (Node.js)</h3>
+                                    <p>API REST con Express, Socket.io para WebSocket, autenticación JWT.</p>
+                                </div>
+                                <div class="arch-box">
+                                    <h3>Base de Datos</h3>
+                                    <p>MongoDB con esquemas de Usuarios, Viajes, Transacciones y Calificaciones.</p>
+                                </div>
+                                <div class="arch-box">
+                                    <h3>Integraciones</h3>
+                                    <p>Google Maps API, Stripe Payments, Twilio SMS, Firebase Notifications.</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="section">
+                            <h2><i class="fas fa-terminal"></i> Instalación y Uso</h2>
+                            <div class="code-block">
+                                <h3>Preparación</h3>
+                                <pre><code>$ git clone https://github.com/vazquez-valentin/uber-platform
+$ cd uber-platform
+
+# Variables de entorno necesarias
+$ cp .env.example .env
+# Agregar: GOOGLE_MAPS_API_KEY, STRIPE_KEY, MONGODB_URI</code></pre>
+                            </div>
+
+                            <div class="code-block">
+                                <h3>Instalación Backend</h3>
+                                <pre><code>$ cd backend
+$ npm install
+$ npm run dev
+
+# API disponible en http://localhost:5000</code></pre>
+                            </div>
+
+                            <div class="code-block">
+                                <h3>Instalación Frontend</h3>
+                                <pre><code>$ cd frontend
+$ npm install
+$ npm start
+
+# Aplicación en http://localhost:3000</code></pre>
+                            </div>
+                        </section>
+
+                        <section class="section">
+                            <h2><i class="fas fa-chart-bar"></i> Resultados y Performance</h2>
+                            <div class="metrics">
+                                <div class="metric">
+                                    <h4>Velocidad Matching</h4>
+                                    <p class="metric-value">&lt;5s</p>
+                                </div>
+                                <div class="metric">
+                                    <h4>Latencia GPS</h4>
+                                    <p class="metric-value">&lt;1s</p>
+                                </div>
+                                <div class="metric">
+                                    <h4>Concurrencia</h4>
+                                    <p class="metric-value">10k+</p>
+                                </div>
+                                <div class="metric">
+                                    <h4>Uptime</h4>
+                                    <p class="metric-value">99.5%</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="section">
+                            <h2><i class="fas fa-lock"></i> Seguridad Implementada</h2>
+                            <ul class="security-measures">
+                                <li>Autenticación JWT con tokens seguros</li>
+                                <li>Validación de datos en frontend y backend</li>
+                                <li>HTTPS/TLS para todas las comunicaciones</li>
+                                <li>Encriptación de datos sensibles</li>
+                                <li>Rate limiting en endpoints críticos</li>
+                                <li>Verificación de identidad de conducto r</li>
+                                <li>PCI-DSS compliance para pagos</li>
+                                <li>GDPR compliance para datos de usuario</li>
+                            </ul>
+                        </section>
+
+                        <section class="section">
+                            <h2><i class="fas fa-cog"></i> Funcionalidades Avanzadas</h2>
+                            <ul class="use-cases">
+                                <li>Predicción dinámico de precios basado en demanda</li>
+                                <li>Sistema de bonos y promociones para usuarios</li>
+                                <li>Programación de viajes futuros</li>
+                                <li>Viajes compartidos (carpooling)</li>
+                                <li>Historial de favoritos y ubicaciones</li>
+                                <li>Seguimiento de viaje en vivo para contactos de emergencia</li>
+                                <li>Sistema de reportes de problemas y soporte</li>
+                                <li>Analytics dashboard para administradores</li>
+                            </ul>
+                        </section>
+
+                        <div class="back-link">
+                            <a href="../index.html#proyectos" class="btn-back">← Volver a Proyectos</a>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Vazquez Valentin | Full Stack Developer | Cybersecurity Specialist</p>
+        </div>
+    </footer>
+</body>
+</html>

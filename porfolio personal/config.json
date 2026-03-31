@@ -1,0 +1,161 @@
+{
+  "personalInfo": {
+    "nombre": "Vazquez Valentin",
+    "titulo": "Técnico Superior en Programación",
+    "subtitulo": "Full Stack Developer | Cybersecurity Specialist",
+    "descripcion": "Desarrollador apasionado por crear soluciones innovadoras y seguras. Especializado en desarrollo de sistemas con IA, blockchain y ciberseguridad.",
+    "ubicacion": "Argentina",
+    "experiencia_años": 5,
+    "tasa_exito": "100%"
+  },
+  "contacto": {
+    "email": "valentinprogramer234@gmail.com",
+    "telefono": "+54 3765026029",
+    "github": "https://github.com/roronoazoroxoro"
+  },
+  "habilidades": {
+    "lenguajes": ["Python", "JavaScript", "HTML5", "CSS3"],
+    "frontend": ["React", "JavaScript", "HTML5", "CSS3", "Responsive Design"],
+    "backend": ["Python", "Node.js", "Flask", "Express"],
+    "ia_ml": ["TensorFlow", "Keras", "OpenCV", "NLP", "OCR"],
+    "ciberseguridad": ["Kali Linux", "Penetesting", "Encriptación", "Blockchain"],
+    "bases_datos": ["PostgreSQL", "MySQL", "MongoDB", "Firebase"],
+    "herramientas": ["Git", "Docker", "Linux", "AWS"]
+  },
+  "proyectos": [
+    {
+      "id": 1,
+      "nombre": "Detección de Rostro con Login Seguro",
+      "descripcion": "Sistema de autenticación biométrica avanzada para cámaras de vigilancia",
+      "url": "projects/facial-recognition.html",
+      "icon": "fas fa-face-smile",
+      "color": "linear-gradient(135deg, #00ff41, #00aa00)"
+    },
+    {
+      "id": 2,
+      "nombre": "Detección de Cuerpo para Kinesiología",
+      "descripcion": "Sistema de seguimiento corporal para análisis de movimientos en rehabilitación",
+      "url": "projects/body-detection.html",
+      "icon": "fas fa-person-hiking",
+      "color": "linear-gradient(135deg, #ff0099, #cc0066)"
+    },
+    {
+      "id": 3,
+      "nombre": "Detección de Recetas con OCR",
+      "descripcion": "Tecnología OCR avanzada para detectar y digitalizar recetas médicas",
+      "url": "projects/ocr-recipes.html",
+      "icon": "fas fa-receipt",
+      "color": "linear-gradient(135deg, #00d9ff, #0099cc)"
+    },
+    {
+      "id": 4,
+      "nombre": "Kiosco Automatizado con IA",
+      "descripcion": "Kiosco interactivo inteligente con interfaz táctil y recomendaciones con IA",
+      "url": "projects/ai-kiosk.html",
+      "icon": "fas fa-robot",
+      "color": "linear-gradient(135deg, #ffaa00, #ff6600)"
+    },
+    {
+      "id": 5,
+      "nombre": "Asistente Virtual Tipo Jarvis",
+      "descripcion": "Asistente automatizado con detección de voz y sistema de emergencia",
+      "url": "projects/jarvis-assistant.html",
+      "icon": "fas fa-microchip",
+      "color": "linear-gradient(135deg, #9d4edd, #5a189a)"
+    },
+    {
+      "id": 6,
+      "nombre": "Red WiFi Mikrotik Automatizada",
+      "descripcion": "Configuración avanzada de Mikrotik con bridge networking como repetidor",
+      "url": "projects/mikrotik-network.html",
+      "icon": "fas fa-wifi",
+      "color": "linear-gradient(135deg, #00ff88, #00cc66)"
+    },
+    {
+      "id": 7,
+      "nombre": "Detección de Personas y Objetos",
+      "descripcion": "Detector avanzado con alertas de seguridad en tiempo real",
+      "url": "projects/object-detection.html",
+      "icon": "fas fa-video",
+      "color": "linear-gradient(135deg, #ff0000, #cc0000)"
+    },
+    {
+      "id": 8,
+      "nombre": "Sistema de Blockchain en Python",
+      "descripcion": "Implementación completa de blockchain con proof of work y minería",
+      "url": "projects/blockchain.html",
+      "icon": "fas fa-link",
+      "color": "linear-gradient(135deg, #ffff00, #ccaa00)"
+    },
+    {
+      "id": 9,
+      "nombre": "ChatBot IA en Web",
+      "descripcion": "Chatbot inteligente con NLP para asistencia al cliente",
+      "url": "projects/chatbot.html",
+      "icon": "fas fa-comment-dots",
+      "color": "linear-gradient(135deg, #00ffff, #0099ff)"
+    },
+    {
+      "id": 10,
+      "nombre": "Sistema Anti-Estrés para Ansiedad",
+      "descripcion": "Aplicación de bienestar mental con meditación y sonidos relajantes",
+      "url": "projects/anti-stress.html",
+      "icon": "fas fa-heart",
+      "color": "linear-gradient(135deg, #ff00ff, #cc0099)"
+    },
+    {
+      "id": 11,
+      "nombre": "Sistema de Turnos por Pantalla",
+      "descripcion": "Sistema de gestión de turnos con visualización en pantalla en vivo",
+      "url": "projects/queue-system.html",
+      "icon": "fas fa-calendar-check",
+      "color": "linear-gradient(135deg, #00ff41, #00aa00)"
+    },
+    {
+      "id": 12,
+      "nombre": "Sistema de Sonidos Relajantes",
+      "descripcion": "Plataforma de sonidos ambientales y música para relajación",
+      "url": "projects/relaxing-sounds.html",
+      "icon": "fas fa-music",
+      "color": "linear-gradient(135deg, #00ffaa, #00cc88)"
+    },
+    {
+      "id": 13,
+      "nombre": "Plataforma Uber Funcional",
+      "descripcion": "Aplicación de transporte compartido completa Full Stack",
+      "url": "projects/uber-platform.html",
+      "icon": "fas fa-car",
+      "color": "linear-gradient(135deg, #ff6600, #ff3300)"
+    }
+  ],
+  "estadisticas": {
+    "proyectos_completados": 13,
+    "tasa_exito": "100%",
+    "lineas_codigo": "200000+",
+    "usuarios_activos": "15000+",
+    "precision_promedio": "96%"
+  },
+  "redes_sociales": [
+    {
+      "nombre": "WhatsApp",
+      "icono": "fab fa-whatsapp",
+      "url": "https://wa.me/+543765026029"
+    },
+    {
+      "nombre": "GitHub",
+      "icono": "fab fa-github",
+      "url": "https://github.com/roronoazoroxoro"
+    }
+  ],
+  "tema": {
+    "colores_primarios": {
+      "primary": "#00ff41",
+      "secondary": "#ff0099",
+      "tertiary": "#00d9ff",
+      "dark_bg": "#0a0e27",
+      "darker_bg": "#050812",
+      "accent_red": "#ff0000",
+      "accent_yellow": "#ffff00"
+    }
+  }
+}
