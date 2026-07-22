@@ -136,34 +136,24 @@ function createAnimatedBackground() {
     draw();
 }
 
-// Contact form handler
+// Contact form -> WhatsApp
 const contactForm = document.querySelector('.contact-form');
 if (contactForm) {
     contactForm.addEventListener('submit', function(e) {
         e.preventDefault();
-        
-        const nombre = document.getElementById('nombre').value;
-        const email = document.getElementById('email').value;
-        const asunto = document.getElementById('asunto').value;
-        const mensaje = document.getElementById('mensaje').value;
-        
-        // Simple validation
-        if (nombre && email && asunto && mensaje) {
-            // Show success message
-            alert('¡Mensaje enviado exitosamente! Te contactaremos pronto.');
-            this.reset();
-            
-            // In a real application, you would send this to a backend server
-            console.log({
-                nombre,
-                email,
-                asunto,
-                mensaje,
-                timestamp: new Date()
-            });
-        } else {
+        const nombre = document.getElementById('nombre').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const asunto = document.getElementById('asunto').value.trim();
+        const mensaje = document.getElementById('mensaje').value.trim();
+        if (!nombre || !email || !asunto || !mensaje) {
             alert('Por favor completa todos los campos.');
+            return;
         }
+        const text = encodeURIComponent(
+            `Hola Valentin, soy ${nombre} (${email}).\nAsunto: ${asunto}\n\n${mensaje}`
+        );
+        window.open(`https://wa.me/543765026029?text=${text}`, '_blank');
+        this.reset();
     });
 }
 
@@ -215,16 +205,18 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Responsive hamburger menu (optional)
+// Responsive hamburger menu
 function setupResponsiveMenu() {
-    // This could be enhanced with a hamburger menu for mobile
-    const navMenu = document.querySelector('.nav-menu');
-    const navbar = document.querySelector('.navbar');
-    
-    window.addEventListener('resize', () => {
-        if (window.innerWidth < 768) {
-            // Add mobile menu logic here if needed
-        }
+    const toggle = document.getElementById('navToggle');
+    const menu = document.getElementById('navMenu');
+    if (!toggle || !menu) return;
+
+    toggle.addEventListener('click', () => {
+        menu.classList.toggle('open');
+    });
+
+    menu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => menu.classList.remove('open'));
     });
 }
 
